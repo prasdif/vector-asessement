@@ -1,0 +1,28 @@
+/* src/nodes/BaseNode.css */
+.base-node {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  min-width: 180px;
+  font-family: sans-serif;
+}
+
+.node-header {
+  display: flex;
+  align-items: center;
+  font-weight: bold; 
+  margin-bottom: 4px;
+}
+
+.node-icon {
+  margin-right: 6px;
+  font-size: 18px;
+}
+
+.node-body label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
